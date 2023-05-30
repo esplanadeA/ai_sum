@@ -28,8 +28,6 @@ const Demo = () => {
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary }
       const updatedAllArticles = [newArticle, ...allArticles]
-      console.log('clicked')
-      console.log(data.summary)
       setArticle(newArticle)
       setAllArticles(updatedAllArticles)
       localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
