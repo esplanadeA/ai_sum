@@ -1,7 +1,7 @@
-import React from 'react'
-import Hero from './components/Hero'
-import Demo from './components/Demo'
-import './App.css'
+import React from 'react';
+import Hero from './components/Hero';
+import Demo from './components/Demo';
+import './App.css';
 
 const App = () => {
   return (
@@ -13,8 +13,9 @@ const App = () => {
         <Hero />
         <Demo />
       </div>
+      <p className="text-center font-medium">Created with ❤️ by Anna Li</p>
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
